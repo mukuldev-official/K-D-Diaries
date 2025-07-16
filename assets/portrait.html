@@ -164,13 +164,13 @@
   canvas.height = window.innerHeight;
 
   const hearts = [];
-  const heartCount = 60;
+  const heartCount = 20;
 
   function createHeart() {
   return {
     x: Math.random() * canvas.width,
     y: Math.random() * canvas.height,
-    size:  3 + 1,       // smaller hearts
+    size:  2 + 1,       // smaller hearts
     speed: Math.random() * 1 + 0.5,    // slower fall
     opacity: Math.random() * 0.5 + 0.5
   };
